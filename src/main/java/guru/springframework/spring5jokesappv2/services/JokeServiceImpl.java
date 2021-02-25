@@ -8,7 +8,7 @@ import guru.springframework.spring5jokesappv2.model.Joke;
 @Service
 public class JokeServiceImpl implements JokeService {
 
-	private ChuckNorrisQuotes quotesService;
+	private final ChuckNorrisQuotes quotesService;
 
 	public JokeServiceImpl() {
 		super();
